@@ -14,13 +14,13 @@ phases:
      - cd ..
  build:
    commands:
-     - echo "Deploying CDK Stack..."
-     - cdk bootstrap --stackname ServerlessStack
-     - cdk deploy ServerlessStack --require-approval never
      - echo "Building React App..."
      - cd frontend
      - npm run build
      - cd ..
+     - echo "Deploying CDK Stack..."
+     - cdk bootstrap --stackname ServerlessStack
+     - cdk deploy ServerlessStack --require-approval never
  post_build:
    commands:
      - echo "Deployed successfully..."
