@@ -1,0 +1,1 @@
+# cdk_typescript_react_dynamo_db_s3
