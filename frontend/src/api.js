@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_BASE_URL = "https://szk1z7bym5.execute-api.us-east-1.amazonaws.com/prod";
+const API_BASE_URL = "https://ipin9icmr8.execute-api.us-east-1.amazonaws.com/prod";
 
 export const getAllImages = async () => {
 	try {
